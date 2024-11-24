@@ -94,7 +94,7 @@ const TypePage= () => {
       <BreadCrumb title={formattedType}/>
       <Container class1={`store-wrapper  spring  ${isDesktop ? "row px-5" : ""}`}>
          <div className="row">
-         <h2 className="type-header">{` ${formattedType} Brands in Kenya`}</h2>
+         <h2 className="type-header">{` ${formattedType} `}</h2>
          </div>
         
 
