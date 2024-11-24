@@ -132,19 +132,19 @@ const Header = () => {
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")}
-                to="/"
+                to=""
               >
                 Recipies
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")}
-                to="/"
+                to=""
               >
                 Services
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")}
-                to="/"
+                to=""
               >
               About
               </NavLink>
@@ -164,6 +164,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+
       </header>
      </Container>
 
