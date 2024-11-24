@@ -403,7 +403,7 @@ const { productId } = useParams();
 <Container className="home-wrapper-1">
     <div className="elementor-wrapper">
         <div className="elementor-header">
-            <span>Why Choose Nutri Prep</span>
+            <span>Why Choose Us</span>
             <h2>Transforming healthy eating into a seamless, enjoyable, and stress-free experience</h2>
         </div>
         <div className="elementor-wrapper-el">
