@@ -89,17 +89,7 @@ function App() {
     <>
       <BrowserRouter>
 
-      {loading ? (
-        <div className="loader position-relative ">
-          <div className='ring'></div>
-          <img 
-          src={logo}
-          alt="logo"
-          loading="lazy"
-          />
-         
-        </div>
-     ) : (
+  
         <>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -149,7 +139,7 @@ function App() {
 
         </Routes>
           </>
-        )}
+     
       </BrowserRouter>
     </>
   );
