@@ -132,19 +132,19 @@ const Header = () => {
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")}
-                to="/yurts"
+                to="/"
               >
                 Recipies
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")}
-                to="/activities"
+                to="/"
               >
                 Services
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")}
-                to="/reservations"
+                to="/"
               >
               About
               </NavLink>
